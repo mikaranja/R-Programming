@@ -6,7 +6,7 @@ library(rvest)
 library(dplyr)
 library(polite)
 
-page <- bow("http://quotes.toscrape.com/",
+page <- bow(url = "http://quotes.toscrape.com/",
             user_agent = "analyst",
             delay = 5,
             force = FALSE) %>% 
