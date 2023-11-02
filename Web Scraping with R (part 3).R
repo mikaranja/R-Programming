@@ -45,3 +45,6 @@ for (page_result in seq(from = 1, to = 10)){
 
 write.csv(quotes, "quotes.csv")
 View(quotes)
+
+
+#Retrieved from https://mikaranja.com/project/web-scraping-with-r-3/

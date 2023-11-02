@@ -13,3 +13,6 @@ author <- page %>% html_nodes(".author") %>% html_text()
 quotes <- data.frame(text, author, stringsAsFactors = FALSE)
 write.csv(quotes, "quotes.csv")
 View(quotes)
+
+
+#Retrieved from https://mikaranja.com/project/web-scraping-with-r/
